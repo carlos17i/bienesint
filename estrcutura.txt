@@ -1,0 +1,38 @@
+// Estructura de archivos recomendada
+src/
+  ├── assets/
+  ├── components/
+  │   ├── assets/
+  │   │   ├── AssetForm.vue
+  │   │   ├── AssetList.vue
+  │   │   ├── AssetDetails.vue
+  │   │   └── QRScanner.vue
+  │   ├── areas/
+  │   │   ├── AreaForm.vue
+  │   │   └── AreaList.vue
+  │   ├── users/
+  │   │   ├── UserForm.vue
+  │   │   └── UserList.vue
+  │   └── shared/
+  │       ├── BaseInput.vue
+  │       ├── BaseSelect.vue
+  │       ├── BaseButton.vue
+  │       └── ImageUploader.vue
+  ├── views/
+  │   ├── DashboardView.vue
+  │   ├── AssetsView.vue
+  │   ├── AreasView.vue
+  │   ├── UsersView.vue
+  │   └── ReportsView.vue
+  ├── router/
+  │   └── index.js
+  ├── stores/
+  │   ├── asset.js
+  │   ├── area.js
+  │   └── user.js
+  ├── services/
+  │   ├── api.js
+  │   └── qrService.js
+  └── utils/
+      ├── validators.js
+      └── formatters.js
